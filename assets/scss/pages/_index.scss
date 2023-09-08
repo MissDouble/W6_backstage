@@ -1,3 +1,35 @@
-.index-title {
-  font-size: 100px;
+
+.main{
+  position: fixed;
+  left: 296px;
+  padding: 32px;
+}
+tbody th{
+  font-weight: normal;
+}
+
+// a{
+//   color:$success;
+// }
+
+// a:hover{
+//   color:$white;
+// }
+// .pagination .page-link span:hover{
+//   color:$white;
+// }
+
+// .arrow:hover {
+//   color:$white;
+// }
+.text-success{
+  &:hover{
+    color:$white !important;
+  }
+}
+.hover-secondary{
+  color: $success !important;
+  &:hover{
+    color:$white !important;
+  }
 }

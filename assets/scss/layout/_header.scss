@@ -1,4 +1,14 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.sideMenu{
+  position: fixed;
+  left:0;
+  min-width: 296px;
+  min-height: 100vh;
+  background: #F8F9FA;
+  padding: 32px;
+}
+
+.avatar{
+  width: 40px;
+  height: 40px;
+  border-radius:20px
 }
