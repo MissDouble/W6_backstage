@@ -1,11 +1,14 @@
 
 .main{
-  position: fixed;
-  left: 296px;
+  margin-left: 296px;
+  min-height: 100vh;
   padding: 32px;
 }
 tbody th{
   font-weight: normal;
+}
+.table-height{
+  height:calc(100vh - 118px);
 }
 
 // a{
