@@ -28,7 +28,8 @@
   content:"";
   position: absolute;
   width: 4px;
-  height: 32px;
+  // height: 32px;
+  height: 100%;
   border-left: 4px solid $success;
   left:-32px;
   opacity: 0;

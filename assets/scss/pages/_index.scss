@@ -6,11 +6,25 @@
 tbody th{
   font-weight: normal;
 }
+tbody td a span:hover{
+  color:$success;
+}
+.btn:hover{
+  border-color:$success !important;
+}
+.title a span:hover{
+  color:$success;
+}
+
 .table-height{
   height:calc(100vh - 118px);
 }
 .mb-32{
   margin-bottom: 32px;
+}
+
+table>thead>tr{
+  border-bottom-color: $gray-900 ;
 }
 
 // a{
@@ -27,14 +41,34 @@ tbody th{
 // .arrow:hover {
 //   color:$white;
 // }
-.pagination .text-success{
-  &:hover{
-    color:$white !important;
-  }
+// .hover-success{
+//   color: $success !important;
+//   &:hover{
+//     color:$white !important;
+//   }
+// }
+
+.pagination > li > a {
+  color: $gray-900; //可設置一般文字灰色
 }
-.hover-success{
-  color: $success !important;
-  &:hover{
-    color:$white !important;
-  }
+
+
+.pagination > li > .green-arrow {
+  color: $success; //左右箭頭綠色
 }
+
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  color: white; //hover 文字白色
+  background-color: $success; //hover 背景綠色
+  border-color: $success; //hover 邊框顏色
+}
+
+.green-arrow > span {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
